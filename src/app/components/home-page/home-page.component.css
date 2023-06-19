@@ -1,0 +1,36 @@
+#carouselExampleCaptions{
+    width: 58%;
+    height: 442px;
+}
+
+img{
+    width: 500px;
+    height: 442px;
+}
+
+.carouselExampleCaptions{
+    width: 40%;
+}
+
+
+.homePageContainer{
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.text{
+    width: 35%;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    color: white;
+}
+
+.text p{
+    font-size: 15px;
+    font-weight: 500;
+}
