@@ -4,7 +4,7 @@
 }
 
 img{
-    width: 500px;
+    width: 100%;
     height: 442px;
 }
 
@@ -34,3 +34,4 @@ img{
     font-size: 15px;
     font-weight: 500;
 }
+
