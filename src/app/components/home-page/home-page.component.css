@@ -35,3 +35,19 @@ img{
     font-weight: 500;
 }
 
+
+@media screen and (max-width : 1000px) {
+    .homePageContainer{
+        flex-direction: column-reverse;
+    }
+
+    #carouselExampleCaptions{
+        width: 98%;
+        height: 442px;
+    }
+
+    .text{
+        width: 98%;
+        padding-bottom: 20px;
+    }
+}

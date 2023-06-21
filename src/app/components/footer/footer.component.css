@@ -15,3 +15,11 @@ a{
     margin: 15px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 700px) {
+    .footer{
+        
+        position: relative;
+        margin-top: 35px;
+    }
+}
