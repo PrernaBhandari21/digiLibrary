@@ -1,0 +1,29 @@
+<div class="upload-container">
+    <label for="file-upload" class="upload-button">
+      Import Images
+      <input type="file" id="file-upload" (change)="handleFileInput($event)" multiple accept="image/*">
+    </label>
+  </div>
+
+<div class="container"> 
+
+
+    <div class="file-viewer">
+      <ul>
+        <li *ngFor="let image of images" (click)="previewImage(image)">
+          {{ image.name }}
+        </li>
+      </ul>
+    </div>
+    <div class="preview-container">
+      <div class="zoom-controls">
+        <button (click)="zoomIn()">Zoom In</button>
+        <button (click)="zoomOut()">Zoom Out</button>
+      </div>
+      <div class="image-preview">
+        <img *ngIf="selectedImage" [src]="selectedImage.url" [style.transform]="'scale(' + zoom + ')'">
+      </div>
+    </div>
+   
+  </div>
+  
